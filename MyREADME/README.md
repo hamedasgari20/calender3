@@ -18,3 +18,7 @@ some of the commands listed below:
 1. Delete the sample contract ```contracts/Greeter.sol```. We will start from scratch.
 2. Rename ```scripts/sample-script.js``` to ```deploy.js```
 3. Rename ```test/sample-test.js``` to ```test.js```
+### Step 6: Create smart contract
+Add ```Calend3.sol``` in the __contracts/__ directory and compile ```npx hardhat compile```
+### Step 7: Test SmartContract
+write test for SmartContract in __test/test.js__
