@@ -21,4 +21,5 @@ some of the commands listed below:
 ### Step 6: Create smart contract
 Add ```Calend3.sol``` in the __contracts/__ directory and compile ```npx hardhat compile```
 ### Step 7: Test SmartContract
-write test for SmartContract in __test/test.js__
+write test for SmartContract in __test/test.js__ and compile ```npx hardhat test```
+### Step 8: Setting up an ethereum wallet (metamask)
