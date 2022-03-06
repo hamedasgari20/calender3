@@ -1,0 +1,17 @@
+{
+  "name": "calend3",
+  "version": "1.0.0",
+  "description": "Install __Node.js__ and __npm__ and make directory __calend3__\r ### Step 2:\r Then inside of the calend3 directory, initialize the project ```npm init -y```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.9.1"
+  }
+}
