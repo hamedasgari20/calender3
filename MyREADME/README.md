@@ -23,3 +23,16 @@ Add ```Calend3.sol``` in the __contracts/__ directory and compile ```npx hardhat
 ### Step 7: Test SmartContract
 write test for SmartContract in __test/test.js__ and compile ```npx hardhat test```
 ### Step 8: Setting up an ethereum wallet (metamask)
+Prepare __MetaMask__ and connect to __Goerli__ testnet and Charge your wallet [Read More ...](https://hackingthemarkets.com/posts/calend3-metamask/)
+### Step 9: Deploy Smartontract
+__Alchemy__, a blockchain developer platform that provides node infrastructure for us. [Sign up](https://www.alchemy.com/)
+### Step 10: Connect app to testnet 
+Follow this guide [Reab more](https://hackingthemarkets.com/posts/calend3-alchemy/)
+### Step 11: Create a deploy script
+Edit __scripts/deploy.js__ 
+1. deploy SmartContract __localy__ ```npx hardhat run scripts/deploy.js```
+2. deploy SmartContract to __testnet__ ```npx hardhat run scripts/deploy.js --network goerli```
+### Step 12: Check status
+We can see our transaction on the [Goerli Testnet Etherscan](https://goerli.etherscan.io/)
+
+
